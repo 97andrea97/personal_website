@@ -53,9 +53,10 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Some of my Projects (the most interesting one that I can make publicly available are coming soon...)",
+  heading: "Some of my Projects",
+  message: "The most recent ones cannot be made open-source because I developed them for companies.. however, the coolest ones are coming soon, open-sourced!"
   gitHubUsername: "97andrea97", //i.e."johnDoe12Gh"
-  reposLength: 6,
+  reposLength: 0,
   specificRepos: ["ECG_peak_detectors_MATLAB", "Conditional-Face-Generation-ACGAN", "Neural-Network-Numpy", "Covid19_Bayesian_Network", "QA_BiDAF", "Fact_checking_NLP"],
 };
 
