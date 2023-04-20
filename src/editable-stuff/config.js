@@ -6,30 +6,18 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Andrea",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Espis",
+  message: " Passionate about medicine and technology. ",
   icons: [
     {
       image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
+      url: "https://github.com/97andrea97",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
-    },
-    {
-      image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://www.linkedin.com/in/andrea-espis/",
     },
   ],
 };
@@ -51,11 +39,11 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  imageLink: require("../editable-stuff/andrea_photo.png"),
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Andrea Espis. I am a Ph.D. student at the University of Bologna, developing frameworks beyond supervised deep learning for percision medicine! I have a Master's Degree in Artificial Intelligence and a Bachelor's Degree in Biomedical Engineering. I'm most passionate about learning and developing, and my goal is to improve people's life by implementing AI tools for medicine. In my free time I like reading, traveling, doing sport, tutoring students, spending time with my wonderful family and developing personal projects.",
+  resume: "https://drive.google.com/file/d/1zUWOZWNLkQ_Fam2haIbTG0V-4pII3i__/view",
 };
 
 // PROJECTS SECTION
@@ -65,10 +53,10 @@ const about = {
 //      i.e ["repository-1", "repo-2"]
 const repos = {
   show: true,
-  heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: [],
+  heading: "Some of my Projects (the most interesting one that I can make publicly available are coming soon...)",
+  gitHubUsername: "97andrea97", //i.e."johnDoe12Gh"
+  reposLength: 6,
+  specificRepos: ["ECG_peak_detectors_MATLAB", "Conditional-Face-Generation-ACGAN", "Neural-Network-Numpy", "Covid19_Bayesian_Network", "QA_BiDAF", "Fact_checking_NLP"],
 };
 
 // Leadership SECTION
@@ -101,23 +89,24 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "SQL", value: 60 },
+    { name: "Data Structures", value: 80 },
+    { name: "C", value: 60 },
+    { name: "MATLAB", value: 60 },
+    { name: "Scala", value: 50 },
+    { name: "Prolog", value: 20 },
+    { name: "Contstraint Optimization Programming", value: 80},
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Goal-Oriented", value: 90 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
-    { name: "Organization", value: 70 },
+    { name: "Positivity", value: 90 },
+    { name: "Adaptability", value: 90 },
+    { name: "Problem Solving", value: 90 },
+    { name: "Empathy", value: 100 },
+    { name: "Organization", value: 100 },
     { name: "Creativity", value: 90 },
+    { name: "Leadership", value: 85 },
   ],
 };
 
@@ -126,8 +115,8 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for an internship where I can develop deep learning frameworks for precision medicine! If you know of any positions available, if you have any questions, or if you just want to say hi and exchange ideas, please feel free to email me at",
+  email: "97andreaespis@gmail.com",
 };
 
 const experiences = {
